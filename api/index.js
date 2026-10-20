@@ -1,5 +1,7 @@
 
 require('module-alias/register');
+require('bcryptjs');
+require('mongoose-autopopulate');
 
 const mongoose = require('mongoose');
 const { globSync } = require('glob');
